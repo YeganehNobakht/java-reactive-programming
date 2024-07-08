@@ -53,4 +53,16 @@ public class FileService {
             throw new RuntimeException(e);
         }
     }
+
+    public static void main(String[] args) {
+        read("file1.txt")
+                .subscribe(Util.onNext(), Util.onError(), Util.onComplete());
+
+        write("file3.txt", "create and write in file3")
+                .subscribe(Util.onNext(), Util.onError(), Util.onComplete());
+
+        delete("file3.txt")
+                .subscribe(Util.onNext(), Util.onError(), Util.onComplete());
+
+    }
 }
