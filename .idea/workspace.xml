@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd9b5467-afc1-4f7b-8793-6f60c8962e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/msi/reactive/programming/stock/StockPricePublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msi/reactive/programming/stock/StockPriceSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/msi/reactive/programming/stock/StockPriceSubscriber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="D:\java\reactive-programming\src\main\com\msi" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StockPriceSubscriber">
     <configuration name="FileService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msi.reactive.programming.FileService" />
       <module name="reactive-programming" />
@@ -68,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockPriceSubscriber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msi.reactive.programming.stock.StockPriceSubscriber" />
+      <module name="reactive-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msi.reactive.programming.stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockPriceSubscriber" />
         <item itemvalue="Application.FileService" />
       </list>
     </recent_temporary>
@@ -83,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720420279468</updated>
       <workItem from="1720420281301" duration="7857000" />
-      <workItem from="1723616714674" duration="1088000" />
+      <workItem from="1723616714674" duration="2508000" />
     </task>
     <servers />
   </component>
